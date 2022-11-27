@@ -1,4 +1,4 @@
 * UTCS 2010
-The solutions for the programming problems of the 2010 University of Texas Invitational programming contest.
+The solutions for the 2010 University of Texas Invitational programming contest.
 ** License
 [[file:LICENSE][GNU General Public License Version 3]]
