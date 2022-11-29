@@ -1,11 +1,11 @@
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Scanner;
 
 public class Scores {
-	public static void main(String[] args) throws FileNotFoundException {
-		Scanner scanner = new Scanner(new File("scores.dat"));
+	public static void main(String[] args) throws IOException {
+		Scanner scanner = new Scanner(new FileInputStream("scores.dat"));
 		HashMap<Character, Integer> points = new HashMap<>();
 		points.put('T', 6);
 		points.put('K', 1);
